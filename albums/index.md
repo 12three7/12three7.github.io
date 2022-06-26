@@ -12,4 +12,4 @@ you can go to the [source code](https://github.com/12three7/12three7.github.io/)
 
 ### Links
 
-- [Project Oblivion OST](/project-oblivion-ost)
+- [Project Oblivion OST](/albums/project-oblivion-ost)
