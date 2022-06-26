@@ -7,7 +7,7 @@ body {
 }
 
 p {
-  color: rgb(235, 235, 235);
+  color: dimgray;
 }
 
 a:link, a:visited {
