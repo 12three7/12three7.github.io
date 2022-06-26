@@ -13,6 +13,7 @@ the first **non-concept/non-experimental** [soundtrack](https://youtu.be/Jm8Nz2H
 ## Links
 
 *   [the mod](https://github.com/uujuju1/project-oblivion/releases)
+*   [the mod's server](/discord/oblivion/)
 *   <details><summary>the soundtrack</summary>
         <ul>
             <li><a href="https://1237.bandcamp.com/album/project-oblivion-ost">bandcamp</a></li>
