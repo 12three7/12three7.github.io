@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');*/
 @font-face {
   font-family: halogen;
-  src: url(/font/Halogen.woff);
+  src: url('https://12three7.me/font/Halogen.woff');
 }
 body {
   color: white;
