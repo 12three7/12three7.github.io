@@ -3,6 +3,7 @@
 ## albums
 
 here you can see links to pages about more detailed information of my albums.
+
 not all of my albums are listed here. i have too many main albums 
 and i definitely can't make pages for all my albums.
 
