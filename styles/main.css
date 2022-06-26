@@ -7,17 +7,17 @@ body {
 }
 
 p {
-  color: dimgray;
+  color: gray;
 }
 
 a:link, a:visited {
-  color: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(160,95,255,1) 100%);
+  color: blue;
 }
 
 a:hover {
-  color: gold;
+  color: lightcyan;
 }
 
-a:active {
+a:active, b, i, strong {
   color: white;
 }
