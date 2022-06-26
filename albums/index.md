@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://12three7.me/styles/main.css">
 ## albums
 
 here you can see links to pages about my albums.
