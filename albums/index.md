@@ -2,10 +2,7 @@
 
 ## albums
 
-here you can see links to pages about my albums.
-on these pages you can get more detailed information about my albums.
-you can even listen and download those albums here.
-
+here you can see links to pages about more detailed information of my albums.
 not all of my albums are listed here. i have too many main albums 
 and i definitely can't make pages for all my albums.
 
