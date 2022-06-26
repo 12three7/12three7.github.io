@@ -1,6 +1,6 @@
  <link rel="stylesheet" href="https://12three7.me/styles/main.css">
 
-<h1>Project Oblivion OST<h1>
+<h1>Project Oblivion OST</h1>
 
 <iframe style="border: 0; width: 400px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3512565310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless=""><a href="https://1237.bandcamp.com/album/project-oblivion-ost">Project Oblivion OST by 1237</a></iframe>
 
