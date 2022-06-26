@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="/styles/main.css">
 
-# 1237
+<p align="center">
+  [youtube](https://youtube.com/1237yt)
+</p>
 
 this is just my first step of reworking my old website.  
-<br>i will add more pages to this website soon.
+i will add more pages to this website soon.
