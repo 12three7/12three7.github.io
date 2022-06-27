@@ -1,3 +1,4 @@
+ <link rel="stylesheet" href="/styles/main.css">
 ## Socials
 
 some of my social media accounts and artist profiles.
