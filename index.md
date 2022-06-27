@@ -5,4 +5,5 @@ i will add more pages to this website soon.
 
 ## Links
 
+- [socials](/socials/)
 - [albums](/albums/)
