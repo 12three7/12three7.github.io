@@ -10,14 +10,6 @@ in the first version(s) of **Project Oblivion**, all the concept/experimental so
 
 the first **non-concept/non-experimental** [soundtrack](https://youtu.be/Jm8Nz2HR-FI) was released on **May 24th, 2022**. that soundtrack (along with other new soundtracks) are then added to a separate repository ([here](https://github.com/uujuju1/poost)). the soundtracks are intentionally separated from the mod so that the mod size doesn't get too big.
 
-## Stream/Download
-
-<html>
-<body>
-<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3512565310/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://1237.bandcamp.com/album/project-oblivion-ost">Project Oblivion OST by 1237</a></iframe>
-</body>
-</html>
-
 ## Links
 
 *   [the mod](https://github.com/uujuju1/project-oblivion/releases)
