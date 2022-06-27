@@ -1,7 +1,6 @@
 ## Socials
 
 some of my social media accounts and artist profiles.
-another accounts that are not listed here are not official.
 
 ### Links
 
