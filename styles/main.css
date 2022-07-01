@@ -3,14 +3,6 @@
 html {
   lang: en;
 }
-@viewport {
-  width: device_width;
-  initial-scale: 1.1;
-}
-
-meta {
-  charset: UTF-8;
-}
 
 body {
   color: rgb(255, 255, 255);
