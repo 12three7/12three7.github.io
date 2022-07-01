@@ -1,1 +1,21 @@
-<p>// todo</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1"> 
+    <title>12three7.me</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <h2>Note</h2>
+    <p>
+      this is just my first step of reworking my old website.
+      <br>i will add more pages to this website soon.
+    </p>
+    <h2>Hello</h2>
+    <p>
+      hi, my name is <b>1237</b>, a multi-genre music 
+      producer & mindustry modder from Indonesia.
+    </p>
+  </body>
+</html>
