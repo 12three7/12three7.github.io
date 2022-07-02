@@ -7,7 +7,9 @@ body {
 }
 
 p {
+  border-bottom: 4px;
   color: lightgray;
+  margin-bottom: 15px;
 }
 
 a:link, a:visited {
