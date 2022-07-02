@@ -7,11 +7,8 @@ body {
 }
 
 p {
-  border-bottom: 4px;
-  border-style: solid;
-  border-color: lightgray;
-  color: lightgray;
-  margin-left: 15px;
+  border-bottom: 6px solid lightgray;
+  margin-bottom: 15px;
 }
 
 a:link, a:visited {
