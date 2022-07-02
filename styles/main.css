@@ -8,6 +8,7 @@ body {
 
 p {
   border-bottom: 4px;
+  border-color: lightgray;
   color: lightgray;
   margin-bottom: 15px;
 }
