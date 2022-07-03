@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* general */
+
 body {
   color: lightgray;
   background-color: rgb(0, 0, 0);
@@ -16,4 +18,11 @@ a:hover {
 
 a:active, b, i, strong, h1, h2, h3, h4, h5, h6, em {
   color: white;
+}
+
+/* for albums pages */
+
+.project-oblivion-ost {
+  background: rgb(26,26,32);
+  background: linear-gradient(131deg, rgba(26,26,32,1) 0%, rgba(50,42,79,1) 35%, rgba(139,110,143,1) 100%);
 }
