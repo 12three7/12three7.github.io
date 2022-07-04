@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles/main.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>12three7.me</title>
-  </head>
-  <body>
-    <h2>Note</h2>
-    <p>
-      this is just my first step of reworking my old website.
-      <br>i will add more pages to this website soon.
-    </p>
-    <h2>Hello</h2>
-    <p>
+<title>12three7.me</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<link rel="stylesheet" href="https://12three7.me/styles/main.css">
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-dark-gray" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="c()">Close &times;</button>
+  <a href="/albums/" class="w3-bar-item w3-button">Link 1</a>
+  <a href="/socials" class="w3-bar-item w3-button">Link 2</a>
+  <!--a href="" class="w3-bar-item w3-button">Link 3</a>-->
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-dark-gray">
+  <button class="w3-button w3-dark-gray w3-xlarge w3-hide-large" onclick="o()">&#9776;</button>
+  <div class="w3-container">
+    <h1>12three7.me</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+  <h2>Note</h2>
+  <p>this is just my first step of reworking my old website.<br>u will add more pages to this website soon.
+  </p>
+  <h2>Hello</h2>
+  <p>
       hi, my name is <b>1237</b>, a multi-genre music 
       producer & mindustry modder from Indonesia.
-    </p>
-  </body>
+  </p>
+  <p>
+      click the &#9776; button to see the list of pages.
+  </p>
+</div>
+   
+</div>
+
+<script>
+function o() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function c() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
 </html>
