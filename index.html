@@ -42,18 +42,37 @@
         </div>
         <div class="w3-container">
           <p>
-          <div class="w3-dropdown-click">
-            <button class="w3-button w3-dark-gray" onclick="drop()">2022</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card w3-black" id="a">
-              <input class="w3-input w3-padding" type="text" placeholder="Search.." id="myInput" onkeyup="filter()">
-              <a class="w3-bar-item w3-button" href="/albums/1-year-of-1237">1 year of 1237</a>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-black">Dropdown</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card w3-light-grey" id="myDIV">
+              <input class="w3-input w3-padding" type="text" placeholder="Search.." id="myInput" onkeyup="myFunction()">
               <a class="w3-bar-item w3-button" href="/albums/project-oblivion-ost">Project Oblivion OST</a>
+              <a class="w3-bar-item w3-button" href="/albums/1-year-of-1237">1 year of 1237</a>
             </div>
           </div>
-          </p>
         </div>
+        </p>
       </div>
     </div>
+    </div>
+    <script>
+      // Filter
+      function myFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDIV");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+    </script>
     <div id="Socials" class="w3-container mp" style="display:none">
       <h2 id="socials">Socials</h2>
       <p>some of my social media accounts and artist profiles.</p>
@@ -74,6 +93,5 @@
       </ul>
     </div>
     <script src="/sc/bar.js"></script>
-    <script src="/sc/df.js"></script>
   </body>
 </html>
