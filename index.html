@@ -44,24 +44,47 @@
           <p>
           <div class="w3-dropdown-hover">
             <button class="w3-button w3-dark-gray">2022</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card w3-dark-grey" id="myDIV">
-              <input class="w3-input w3-padding" type="text" placeholder="Search.." id="myInput" onkeyup="myFunction()">
+            <div class="w3-dropdown-content w3-bar-block w3-card w3-dark-grey" id="div1">
+              <input class="w3-input w3-padding" type="text" placeholder="Search.." id="in1" onkeyup="fun1()">
               <a class="w3-bar-item w3-button" href="/albums/project-oblivion-ost">Project Oblivion OST</a>
+            </div>
+          </div>
+          </p>
+          <p>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-dark-gray">2021</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card w3-dark-grey" id="div2">
+              <input class="w3-input w3-padding" type="text" placeholder="Search.." id="in2" onkeyup="fun2()">
               <a class="w3-bar-item w3-button" href="/albums/1-year-of-1237">1 year of 1237</a>
             </div>
           </div>
+          </p>
         </div>
-        </p>
       </div>
     </div>
     </div>
     <script>
       // Filter
-      function myFunction() {
+      function fun1() {
         var input, filter, ul, li, a, i;
-        input = document.getElementById("myInput");
+        input = document.getElementById("in1");
         filter = input.value.toUpperCase();
-        div = document.getElementById("myDIV");
+        div = document.getElementById("div1");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+      function fun2() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("in2");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("div2");
         a = div.getElementsByTagName("a");
         for (i = 0; i < a.length; i++) {
           txtValue = a[i].textContent || a[i].innerText;
