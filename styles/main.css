@@ -21,15 +21,7 @@ a:active, b, i, strong, h1, h2, h3, h4, h5, h6, em {
   color: white;
 }
 
-/* for albums pages */
-
-.bg {
-    height: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-.project-oblivion-ost {
-  background-color: linear-gradient(131deg, rgba(26,26,32,1) 0%, rgba(50,42,79,1) 35%, rgba(139,110,143,1) 100%);
+.three7-margin {
+  margin-left:200px; 
+  margin-right:200px;
 }
